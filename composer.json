@@ -1,0 +1,21 @@
+{
+    "name": "taboritis/images-rescaling-abacus",
+    "require": {
+        "phpunit/phpunit": "^8.0",
+        "codedungeon/phpunit-result-printer": "^0.26.2",
+        "johnkary/phpunit-speedtrap": "^3.2",
+        "larapack/dd": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Piotr",
+            "email": "pio.skro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rescaler\\": "src/",
+            "Tests\\": "tests/"
+        }
+    }
+}
